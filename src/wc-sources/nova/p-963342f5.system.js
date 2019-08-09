@@ -1,0 +1,1 @@
+System.register(["./p-c965441f.system.js"],function(){"use strict";var e,t;return{setters:[function(n){e=n.p;t=n.b}],execute:function(){e().then(function(e){return t([["p-kkgfylib.system",[[1,"nova-badge",{score:[1025]}]]]],e)})}}});

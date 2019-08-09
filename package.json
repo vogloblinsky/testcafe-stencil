@@ -1,0 +1,26 @@
+{
+  "name": "testcafe-stencil",
+  "version": "1.0.0",
+  "description": "Debug of Testcafe with Stencil Web Component",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server src",
+    "test": "run-p --race serve testcafe",
+    "testcafe": "npx testcafe chromium test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vogloblinsky/testcafe-stencil.git"
+  },
+  "author": "vogloblinsky-sii <vogloblinsky@sii.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vogloblinsky/testcafe-stencil/issues"
+  },
+  "homepage": "https://github.com/vogloblinsky/testcafe-stencil#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "npm-run-all": "^4.1.5",
+    "testcafe": "^1.4.0"
+  }
+}
